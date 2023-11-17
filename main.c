@@ -23,14 +23,14 @@ int task1()
 
 int task2()
 {
-    int i,t;
-    t=0;
+    int i,tmp;
+    tmp=0;
     int Array[n]={0};
     for ( i = 0; i < n; i++ ) {
         Array[i]=i+1i;
     }
     for ( i = 0; i < n/2; i++ ) {
-        t=Array[i];
+        tmp=Array[i];
         Array[i]=Array[n-i-1];
         Array[n-i-1]=t;
     }
